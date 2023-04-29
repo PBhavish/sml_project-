@@ -252,8 +252,6 @@ y_new_pred = rf_model.predict(X_new)
 # Print the predicted usage
 print(y_new_pred)
 
-!pip install streamlit
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
